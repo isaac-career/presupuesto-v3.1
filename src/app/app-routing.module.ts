@@ -8,7 +8,8 @@ import { GastosComponent } from './components/gastos/gastos.component';
 const routes: Routes = [
   {path: 'ingresarPresupuesto', component: IngresarPresupuestoComponent},
   {path: 'gastos', component: GastosComponent},
-  {path: '', redirectTo: '/ingresarPresupuesto', pathMatch: 'full'}
+  {path: '', redirectTo: '/ingresarPresupuesto', pathMatch: 'full'},
+  {path: '**', redirectTo: '/ingresarPresupuesto', pathMatch: 'full'}
 ];
 
 @NgModule({
