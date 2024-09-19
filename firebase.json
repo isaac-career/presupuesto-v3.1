@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/presupuesto/browser/gastos",
+    "public": "dist/presupuesto/browser/ingresarPresupuesto",
     "ignore": [
       "firebase.json",
       "**/.*",
