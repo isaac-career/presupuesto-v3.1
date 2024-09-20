@@ -1,0 +1,20 @@
+before_script:
+  - npm install
+
+stages:
+  - build
+  - test
+
+
+build-code:
+  image: node:20-iron
+  stage: build
+  script:
+    -npm install
+  
+unit-test:
+  image: node:20-iron
+  stage: test
+  script:
+    - npm run test
+    
