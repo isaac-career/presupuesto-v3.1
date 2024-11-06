@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class IngresarPresupuestoComponent {
 
+  cantidad: number;
+  cantidadIncorrecta: boolean;
+
+  constructor(){
+    this.cantidad= 0;
+    this.cantidadIncorrecta = false;
+  }
+  ngOnInit(): void{
+
+  }
+
 }
